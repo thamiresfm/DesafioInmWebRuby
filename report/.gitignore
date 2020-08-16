@@ -1,0 +1,4 @@
+report/screenshots/*.png
+report/*.json
+report/*.html
+gemfile.lock
