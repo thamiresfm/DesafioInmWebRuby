@@ -16,6 +16,15 @@ Luis:
   salario: "8.000,00"
   tipo_de_Contratacao: "CLT"
 
+Luis_alteracao:
+  nome: "Luis Neto da Silva"
+  cpf: "811.500.510-00"
+  sexo: "Masculino"
+  admissao: "12/08/2008"
+  cargo: "Desemvolvedor"
+  salario: "10.000,00"
+  tipo_de_Contratacao: "CLT"
+
 Fabio:
   nome: "Fabio Coelho"
   cpf: "411.135.410-67"
@@ -69,3 +78,14 @@ Raquel:
   cargo: "Tester"
   salario: "7.000,00"
   tipo_de_Contratacao: "CLT"
+
+  Romana:
+    nome: "Carla Silva"
+    cpf: "732.776.520-41"
+    sexo: "Feminino"
+    admissao: "12/08/2017"
+    cargo: "QA"
+    salario: "5.000,00"
+    tipo_de_Contratacao: "PJ"
+  
+

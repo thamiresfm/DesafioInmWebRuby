@@ -41,14 +41,14 @@ Funcionalidade: Cadastro de funcionários
                 | funcionario                    |mensagem                    |
                 | "Carla"                        |"Nenhum registro encontrado"|
 
-    @novo_funcionario
-    Esquema do Cenario: Removendo um funcionário
+    
+    Esquema do Cenario: Removendo um cadastro do funcionário
         O gestor de cadastro para remover um funcionário através do formulário
         e não é encontrado registro no sistema Inmrobo.
             
             Dado que <funcionario> é um novo funcionário
             Quando eu preencho o cadastro deste funcionário
-            E devo ver a mensagem de cadstro realizado com sucesso
+            E devo ver a mensagem de cadastro realizado com sucesso
             Então removo funcionário do cadastro
             E devo ver a <mensagem> de remoção com sucesso
 
@@ -56,5 +56,20 @@ Funcionalidade: Cadastro de funcionários
 
                 | funcionario                    |mensagem                                   |
                 | "Raquel"                       |"SUCESSO! Funcionário removido com sucesso"|
+                
+    @novo_funcionario
+    Esquema do Cenario: Alterando um cadastro do funcionário
+        O gestor de cadastro para alterar um funcionário através do formulário
+         e a ateração é realizada registro do sistema Inmrobo.
+            
+            Dado que <funcionario> é um novo funcionário
+            Quando eu preencho o cadastro deste funcionário
+            E devo ver a mensagem de cadastro realizado com sucesso
+            Então altero <dado> do funcionário do cadastro
+            E devo ver a <mensagem> de alteração realizada com sucesso
 
-     
+            Exemplos:
+
+                | funcionario     |mensagem                                      |dado            |
+                | "Luis"          |"SUCESSO! Informações atualizadas com sucesso"|"Luis_alteracao"|
+
