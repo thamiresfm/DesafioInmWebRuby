@@ -1,0 +1,26 @@
+---
+# Plataform
+default: -p chrome -p dev -p json -p pretty
+ci: -p headless -p dev -p json -p pretty
+dev: ENV_TYPE=dev
+
+# Reports
+html: --format html --out=report/report.html
+json: --format json --out=report/report.json
+
+# Logs
+http_log: HTTP_LOG=true
+
+# Browsers
+firefox: BROWSER=firefox
+chrome: BROWSER=chrome
+headless: BROWSER=headless
+
+
+#Outros
+pretty: --format pretty
+progress: --format progress
+
+
+
+
