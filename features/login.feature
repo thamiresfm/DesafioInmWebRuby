@@ -19,11 +19,11 @@ Funcionalidade: Login
         Dado que eu esteja site Inmrobo
         Quando eu faço login com <usuario> e <senha>
         Então  não devo ser autenticado
-        E devo ver a mensagem de <alerta>
+        E devo ver a <mensagem> de erro 
 
         Exemplos:
 
-            |usuario          |senha       |alerta                             |
+            |usuario          |senha       |mensagem                            |
             |"thamires.mendes"|"pwd123"    |"ERRO! Usuário ou Senha inválidos"|
             |"tmendes"        |"thatha9897"|"ERRO! Usuário ou Senha inválidos"|
             |"tmendes"        |"pwd123"    |"ERRO! Usuário ou Senha inválidos"|
@@ -33,11 +33,11 @@ Funcionalidade: Login
         Dado que eu esteja site Inmrobo
         Quando eu faço login com <usuario> e <senha>
         Então  não devo ser autenticado
-        E devo ver a notificação de <alerta>
+        E devo ver a <notificação> de erro no campo obrigatório
 
         Exemplos:
 
-            |usuario          |senha       |alerta                            |
+            |usuario          |senha       |notificação                            |
             |""               |""          |"Campo obrigatório"               |
             |""               |"thatha9897"|"Campo obrigatório"               |
             |"thamires.mendes"|""          |"Campo obrigatório"               |

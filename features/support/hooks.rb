@@ -2,10 +2,18 @@ require "report_builder"
 require "date"
 
 Before do
-    @login = LoginPage.new
+  @login_page = LoginPage.new
+  @funcionario_page = FuncionarioPage.new
+  @alert = Alert.new
     
   # page.driver.browser.manage.window.maximize
     page.current_window.resize_to(1440, 900)
+end
+
+Before("@login") do
+  user = CONFIG["users"]["cat_manager"]
+  @login_page.go
+  @login_page.with(user["email"], user["pass"])
 end
 
 d = DateTime.now

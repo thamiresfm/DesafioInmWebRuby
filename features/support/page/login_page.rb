@@ -6,7 +6,6 @@ class LoginPage
       @input_pass = "input[name=pass]"
       @logout  = "#logout"
       @btn_log_in = ".login100-form-btn"
-      @alert_danger = ".alert-danger"
       @script_alert_attr = "$('.alert-validate').attr('data-validate')"
     end
   
@@ -28,14 +27,9 @@ class LoginPage
       page.has_no_css?(@logout)
     end
   
-    def alert_danger
-      find(@alert_danger).text
-    end
-  
     def alert_validate
       find(@input_username).hover
       find(@input_pass).hover
       page.evaluate_script(@script_alert_attr);  
     end
-  
   end
