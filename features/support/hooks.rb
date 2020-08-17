@@ -21,7 +21,7 @@ d = DateTime.now
 
 After do |scenario|
     #if scenario.failed?
-    temp_shot = page.save_screenshot("report/screenshots/temp_shot.png")
+    temp_shot = page.save_screenshot("report/screenshots/#{scenario.__id__}.png")
     screenshot = Base64.encode64(File.open(temp_shot, "rb").read)
     embed(screenshot, "image/png", "Screenshot")
     #end

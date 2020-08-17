@@ -7,7 +7,7 @@ Quando("preencho campo de {string} , {string} e {string}") do |username, pass, c
 
 end
 
-Então("devo realizar o {string} , {string} com sucesso") do |username, pass|
+Então("devo realizar o login com {string} , {string} com sucesso") do |username, pass|
   steps %{
     Dado que eu esteja site Inmrobo
     Quando eu faço login com "#{username}" e "#{pass}"
