@@ -1,7 +1,7 @@
 #language: pt
 
 @login
-Funcionalidade: Cadastro de login
+Funcionalidade: Funcionario
 
     Para que eu possa disponibilizar novos cadastros de funcionários
     Sendo um gestor de cadastro
