@@ -26,11 +26,11 @@ Luis_alteracao:
   tipo_de_Contratacao: "CLT"
 
 Fabio:
-  nome: "Fabio Coelho"
-  cpf: "411.135.410-67"
+  nome: "Fabio Moreira"
+  cpf: "882.397.920-06"
   sexo: "Indiferente"
-  admissao: "12/08/2020"
-  cargo: "Front-End"
+  admissao: "12/07/2020"
+  cargo: "Front End"
   salario: "4.000,00"
   tipo_de_Contratacao: "CLT"
 
@@ -79,13 +79,38 @@ Raquel:
   salario: "7.000,00"
   tipo_de_Contratacao: "CLT"
 
-  Romana:
-    nome: "Carla Silva"
-    cpf: "732.776.520-41"
-    sexo: "Feminino"
-    admissao: "12/08/2017"
-    cargo: "QA"
-    salario: "5.000,00"
-    tipo_de_Contratacao: "PJ"
-  
+Diego:
+  nome: "Diego Gabriel da Silva"
+  cpf: 
+  sexo: "Masculino"
+  admissao: "12/08/2018"
+  cargo: "Desemvolvedor"
+  salario: "8.000,00"
+  tipo_de_Contratacao: "CLT"
 
+Bruno:
+  nome: ""
+  cpf: "190.457.880-20"
+  sexo: ""
+  admissao: "12/08/2018"
+  cargo: "Desemvolvedor"
+  salario: "8.000,00"
+  tipo_de_Contratacao: "CLT"
+
+Fabiola:
+  nome: "Fabiola Paola"
+  cpf: "190.457.880-20"
+  sexo: ""
+  admissao: "12/08/2018"
+  cargo: "Tester"
+  salario: "4.000,00"
+  tipo_de_Contratacao: "CLT"
+
+Paulo:
+  nome: "Paulo Lucas"
+  cpf: "190.457.880-20"
+  sexo: "Feminino"
+  admissao: ""
+  cargo: "Tester"
+  salario: ""
+  tipo_de_Contratacao: "CLT"

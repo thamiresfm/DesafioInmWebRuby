@@ -19,7 +19,7 @@ Então("devo ver a {string} de erro") do |msg|
 end
   
 Então("devo ver a {string} de erro no campo obrigatório") do |msg|
-    expect(@login_page.alert_validate).to eql msg
+    expect(@alert.alert_validate).to eql msg
 end
 
   

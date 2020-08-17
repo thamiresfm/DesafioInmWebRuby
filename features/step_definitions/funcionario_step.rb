@@ -14,7 +14,7 @@ end
 
 Quando("devo ver a {string} de insucesso") do |msg|
     @funcionario_page.form.sucess_or_cancel("failure")
-    expect(@funcionario_page.list(@funcionario["cpf"])).to eql msg
+    expect(@funcionario_page.list(@funcionario["cpf"], @funcionario["nome"])).to eql msg
 end
 Quando("devo ver a mensagem de cadastro realizado com sucesso") do
     @funcionario_page.form.sucess_or_cancel("sucess")
@@ -35,3 +35,8 @@ end
 Então("devo ver a {string} de alteração realizada com sucesso") do |msg|
     expect(@alert.alert).to include msg
 end
+
+Então("não devo encontrar dados no campo de busca e ver a {string}") do |msg|
+    expect(@funcionario_page.valid_register_sem_sucesso(@funcionario)).to eql msg
+end
+

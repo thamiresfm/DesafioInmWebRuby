@@ -11,7 +11,7 @@ class AddFuncionario
         @input_salary = "#dinheiro"
         @button_register = ".cadastrar-form-btn"
         @button_cancel = ".cancelar-form-btn"
-
+      
     end
 
     def create_funcionario(funcionario)

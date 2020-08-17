@@ -37,7 +37,7 @@ Funcionalidade: Login
 
         Exemplos:
 
-            |usuario          |senha       |notificação                            |
+            |usuario          |senha       |notificação                       |
             |""               |""          |"Campo obrigatório"               |
             |""               |"thatha9897"|"Campo obrigatório"               |
             |"thamires.mendes"|""          |"Campo obrigatório"               |
