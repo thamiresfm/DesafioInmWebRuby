@@ -30,21 +30,7 @@ pipeline{
         }
       }
     }
-       stage('UAT'){
-      steps
-      {
-        echo "Wait for User Acceptance"
-        input(message: "Go to production", ok: 'Yes')
-
-      }
-    }
-       stage('Prod'){
-      steps
-      {
-        echo " WebApp is Ready"
-     
-      }
-    }
+       
     
   }
 }
