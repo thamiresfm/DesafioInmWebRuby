@@ -1,6 +1,6 @@
 #language: pt
 
-Funcionalidade: Login
+Funcionalidade: Cadastro de Login
 
   Para que eu possa gerenciar os cadastro de funcionarios 
   È necessário realizar o cadastro para login
