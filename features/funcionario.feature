@@ -20,11 +20,10 @@ Funcionalidade: Cadastro de funcionários
 
             | funcionario                    |mensagem                                  |
             | "Claudia"                      |"SUCESSO! Usuário cadastrado com sucesso" |
-            # | "Luis"                         |"SUCESSO! Usuário cadastrado com sucesso" |
-            # | "Fabio"                        |"SUCESSO! Usuário cadastrado com sucesso" |
-            # | "Fatima"                       |"SUCESSO! Usuário cadastrado com sucesso" |
-            # | "Henrique"                     |"SUCESSO! Usuário cadastrado com sucesso" |
-            # | "Cristina"                     |"SUCESSO! Usuário cadastrado com sucesso" |
+            | "Fabio"                        |"SUCESSO! Usuário cadastrado com sucesso" |
+            | "Fatima"                       |"SUCESSO! Usuário cadastrado com sucesso" |
+            | "Henrique"                     |"SUCESSO! Usuário cadastrado com sucesso" |
+            | "Cristina"                     |"SUCESSO! Usuário cadastrado com sucesso" |
            
      
    
@@ -56,7 +55,7 @@ Funcionalidade: Cadastro de funcionários
 
                 | funcionario                    |mensagem                                   |
                 | "Raquel"                       |"SUCESSO! Funcionário removido com sucesso"|
-                
+
     @novo_funcionario
     Esquema do Cenario: Alterando um cadastro do funcionário
         O gestor de cadastro para alterar um funcionário através do formulário
