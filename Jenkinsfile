@@ -11,7 +11,7 @@ pipeline{
     stage('Build'){
       steps
       {
-        echo " Build or Resolver dependencies"
+        echo " Build or Resolver dependêncies"
         sh "rm -f Gemfile.lock"
         sh 'bundle install'
       }
@@ -21,7 +21,6 @@ pipeline{
       {
         echo " Running regression test"
         sh 'bundle exec cucumber -p ci'
-        
      
       }
       post{
