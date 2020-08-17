@@ -13,14 +13,14 @@ pipeline{
       {
         echo " Build or Resolver dependêncies"
         sh "rm -f Gemfile.lock"
-        sh 'bundler install'
+        sh 'bundle install'
       }
     }
        stage('Test'){
       steps
       {
         echo " Running regression test"
-        sh 'bundler exec cucumber -p ci'
+        sh 'bundle exec cucumber -p ci'
      
       }
       post{
