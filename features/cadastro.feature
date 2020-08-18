@@ -11,8 +11,8 @@ Funcionalidade: Cadastro
 
         Dado que eu esteja site Inmrobo
         E acesso o cadastro
-        Quando preencho campo de "Renata Soares" , "pw12987" e "pw12987"
-        Então devo realizar o login com "Renata Soares" , "pw12987" com sucesso
+        Quando preencho campo de "Renata Campos" , "pw12987" e "pw12987"
+        Então devo realizar o login com "Renata Campos" , "pw12987" com sucesso
 
     
     Esquema do Cenario: Cadastro de login realizado sem sucesso
